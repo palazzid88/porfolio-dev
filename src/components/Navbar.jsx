@@ -9,23 +9,23 @@ const MenuHamburguesa = () => {
   return (
     <Navbar bg="ligth" expand="lg" expanded={expanded}>
       <Container>
-        <Navbar.Brand href="#home"> {name} </Navbar.Brand>
+        <Navbar.Brand href="#home" style={{ color:'white' }}> {name} </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(expanded ? false : "expanded")}
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#inicio" onClick={() => setExpanded(false)}>
+            <Nav.Link style={{ color:'white' }} href="#inicio" onClick={() => setExpanded(false)}>
               Inicio
             </Nav.Link>
-            <Nav.Link href="#sobre-mi" onClick={() => setExpanded(false)}>
+            <Nav.Link style={{ color:'white' }} href="#sobre-mi" onClick={() => setExpanded(false)}>
               Sobre Mi
             </Nav.Link>
-            <Nav.Link href="#contacto" onClick={() => setExpanded(false)}>
+            <Nav.Link style={{ color:'white' }} href="#contacto" onClick={() => setExpanded(false)}>
               Contacto
             </Nav.Link>
-            <Nav.Link href="#mis-proyectos" onClick={() => setExpanded(false)}>
+            <Nav.Link style={{ color:'white' }} href="#mis-proyectos" onClick={() => setExpanded(false)}>
               Mis Proyectos
             </Nav.Link>
           </Nav>
