@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container p-4">
           <section className="mb-4">
             <p>
-              Esta página ha sido desarrollada en un entorno educativo para el curso de backend de la comisión 51380.
+              Porfolio Personal - Full Stack developer MERN.
             </p>
           </section>
 

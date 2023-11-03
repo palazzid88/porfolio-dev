@@ -7,7 +7,7 @@ import MenuHamburguesa from './components/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemListContainer from './components/ItemListContainer'
 import Animania from './components/Animania'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 
 
 function App() {
