@@ -1,0 +1,70 @@
+  {
+    "skills": [
+      {
+        "title": "HTML",
+        "category": "frontend",
+        "image": "https://camo.githubusercontent.com/0c91c785f9b01a6ba0d4a885e233f85e46a5d3278e47a86a437d3d3996924c06/68747470733a2f2f696d672e69636f6e73382e636f6d2f3f73697a653d3235362669643d323039303926666f726d61743d706e67"
+      },
+      {
+        "title": "CSS",
+        "category": "frontend",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+      },
+      {
+        "title": "JavaScript",
+        "category": "frontend",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      },
+      {
+        "title": "React",
+        "category": "frontend",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      },
+      {
+        "title": "Node",
+        "category": "backend",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+      },
+      {
+        "title": "Express",
+        "category": "backend",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+      },
+      {
+        "title": "Mongo",
+        "category": "backend",
+        "image": "",
+        "link": "https://drive.google.com/file/d/1pdR4RsPTyNRI03pFw3FmSz7tQ4MMRUzP/view"
+      },
+      {
+        "title": "Socket",
+        "category": "backend",
+        "image": "https://cdn.iconscout.com/icon/free/png-256/free-mongodb-5-1175140.png"
+      },
+      {
+        "title": "Bootstrap",
+        "category": "utilidades",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+      },
+      {
+        "title": "Figma",
+        "category": "utilidades",
+        "image": "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667"
+      },
+      {
+        "title": "Firebase",
+        "category": "utilidades",
+        "image": "https://camo.githubusercontent.com/dd4b2422ed3bfc9da88c43d18550375c66f9584327dff7ecc19315ce50b96f07/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f66697265626173652f66697265626173652d69636f6e2e737667"
+      },
+      {
+        "title": "Git",
+        "category": "utilidades",
+        "image": "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
+      },
+      {
+        "title": "GitHub",
+        "category": "utilidades",
+        "image": "https://img.icons8.com/?size=256&id=3tC9EQumUAuq&format=png"
+      }
+    ]
+  }
