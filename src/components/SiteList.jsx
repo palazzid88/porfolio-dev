@@ -1,26 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import SiteCard from './SiteCard';
+import { collection, getDocs, getFirestore } from 'firebase/firestore';
 
 
 const SiteList = () => {
+  const [data,setData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const db = getFirestore();
+    const querySnapshot = await getDocs(collection(db, 'proyectos' ));
+    const dataArray = [];
+    querySnapshot.forEach((doc) => {
+      dataArray.push(doc.data());
+    })
+    console.log("data", dataArray)
+    setData(dataArray)
+    };
+
+    fetchData()
+  }, [])
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-end', flexWrap: 'wrap' }}>
-      <SiteCard
-        title="Val di Sole Bikes"
-        description="e commers tienda de bicicletas"
-        image=""
-        link="https://proyecto-backend-9f3q.onrender.com/auth/login"
-      />
-      <SiteCard
-        title="Desde la huerta a tu casa"
-        image=""
-        link="https://proyecto-react-44970.web.app/"
-      />
-      <SiteCard
-        title="Yaguaron extremo"
-        image=""
-        link="https://palazzid88.github.io/YaguaronExtremo/"
-      />
+    <div className='div-container-proyectos'>
+      {/* Renderiza los datos obtenidos de la base de datos */}
+      {data.map((item, index) => (
+        <div key={index} className='div-poyectos' > 
+          {/* <h2>{item.img}</h2>
+          <p>{item.category}</p> */}
+          <img src={item.img} alt="" className='img-proyectos' />
+          {/* Agrega otros datos que desees mostrar */}
+        </div>
+      ))}
     </div>
   );
 };

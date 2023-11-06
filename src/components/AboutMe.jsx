@@ -26,7 +26,7 @@ const AboutMe = () => {
         <div key={index} className='div-skills' > 
           <h2>{item.title}</h2>
           <p>{item.category}</p>
-          <img src={item.image} alt="" style={{ width: '120px' }} />
+          <img src={item.image} alt="" style={{ width: '50px' }} />
           {/* Agrega otros datos que desees mostrar */}
         </div>
       ))}
